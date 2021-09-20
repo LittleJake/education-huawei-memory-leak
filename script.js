@@ -39,8 +39,6 @@
 					});
 				}
 			}, 10000);
-        //去除水印
-        $('#watermark').val("False");
 	}
 	console.log("===华为云课堂增强脚本===");
 	console.log("项目地址：https://github.com/LittleJake/education-huawei-memory-leak/");
