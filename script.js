@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         华为云课堂防止内存溢出
-// @version      2.2
+// @version      2.3
 // @description  防止video.js刷新iframe导致内存溢出，增加判断登录是否过期。
 // @author       LittleJake
 // @license      Apache2.0
@@ -39,6 +39,8 @@
 					});
 				}
 			}, 10000);
+        //去除水印
+        $('#watermark').val("False");
 	}
 	console.log("===华为云课堂增强脚本===");
 	console.log("项目地址：https://github.com/LittleJake/education-huawei-memory-leak/");
